@@ -1,9 +1,90 @@
-img {
-	max-width: 100px;
-	margin: 5px;
-	float:left;
+/*.image-footer {
+	display: inline;
+}*/
+
+/*.octodex {
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+}*/
+
+
+.octocat {
+	border: 1px black;
+	padding: 5px;
+	display: inline-block;
 }
 
+li.octocat img {
+	margin: none;
+	width: 100px;
+}
+
+body {
+
+}
+
+
+/*img {
+	max-width: 30px;
+	display: block;
+}*/
+
+a {
+	text-decoration: none;
+	display: inline;
+	color: black;
+}
+
+ul.octodex {
+	margin: 5px;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+/*.image-footer, .image-number, .image-caption {
+	display: inline;
+}*/
+
 li {
+	display: inline;
+}
+
+div a {
+	font-weight: bold;
+}
+
+a img:nth-child(1) {
+    width: 100px;
+    height: 100px;
+}
+
+.image-number {
+	text-align: left;
+	font-size: 12px;
+}
+
+.image-caption {
+	text-align: right;
+	display: inline;
+	font-size: 14px;
+}
+
+.image-footer {
+	max-height: 14px;
+	outline; 1px black;
+}
+
+.image-number .image-caption {
+	overflow: hidden;
+}
+
+.image-caption, .image-number {
+	font-family: sans-serif;
+}
+
+
+.octocat {
 	list-style: none;
 }
